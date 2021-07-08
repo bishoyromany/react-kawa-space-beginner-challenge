@@ -1,0 +1,33 @@
+.container{
+        width: 90%;
+        max-width: 90rem;
+        padding: 3rem;
+        margin: 2rem auto;
+        text-align: center;
+        background-color: black;
+      }
+
+/* .container ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20%;
+} */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item {
+    padding: 10px;
+    flex: auto;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}

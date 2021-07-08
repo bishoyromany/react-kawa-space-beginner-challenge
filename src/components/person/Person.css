@@ -1,0 +1,42 @@
+.avatar{
+    vertical-align: middle;
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: .15rem;
+    -webkit-column-gap: .15rem;
+    column-gap: .15rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center; 
+    margin:0.5rem 0.5rem;  
+}
+
+@media (max-width: 765px) {
+    li {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+    }
+  }
+.div{
+    line-height: 0.2;
+}
+
+article:hover,
+article:active {
+    background-color: blueviolet;
+    color: white;
+}
